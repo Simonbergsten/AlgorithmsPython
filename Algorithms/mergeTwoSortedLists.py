@@ -77,3 +77,23 @@ listB.addToList(4)
 listA.head = mergeLists(listA.head, listB.head)
 print("Merged linked list: ")
 listA.printList()
+
+#### Create a second text example
+listC = LinkedList()
+listD = LinkedList()
+
+listC.addToList(3)
+listC.addToList(8)
+listC.addToList(10)
+listD.addToList(5)
+listD.addToList(11)
+listD.addToList(12)
+
+listC.head = mergeLists(listC.head, listD.head)
+print("\n")
+print("Merged linked list of listC = [3, 8, 10] & listD = [5, 11, 12]")
+listC.printList()
+
+
+
+
