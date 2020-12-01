@@ -1,0 +1,12 @@
+Dynamic Programming is a technique for solving problems.
+We break the problem into smaller sub-problems and solve the sub-problems.
+The results from the subproblems are stored and used later.
+
+# How to know if it's a DB problem?
+
+1. If a problem is recursive
+2. A lot of repeated states in the solution
+
+There are two approaches to use in DB.
+1. Top-Down:
+2. Bottom-Up:  
